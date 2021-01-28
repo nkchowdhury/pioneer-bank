@@ -51,17 +51,17 @@
      <main>
          <div class="container">
 
-            <div class="login-area">
+            <div id="login-area">
 
                 <h1 class="text-center p-5 m-5">WELCOME TO PIONEER BANK</h1>
-                <div class="submit-area">
+                <div id="submit-area">
                     <h4>Log in</h4>
                     <br>
                     <input type="email" class="form-control" placeholder="Enter Your Email">
                     <br>
                     <input type="password" class="form-control" placeholder="Enter Your Password">
                     <br>
-                    <button class="btn btn-success">Log in</button>
+                    <button id="login" class="btn btn-success">Log in</button>
                    
 
 
@@ -72,6 +72,54 @@
             
          </div>
      </main>
+
+     <div class="container">
+       <div id="transaction-area" class="pt-5 mt-5">
+         <div class="row">
+           <div class="col-md-4">
+             <div class="deposit status">
+               <h5>Deposit</h5>
+               <h2>$00</h2>
+             </div>
+           </div>
+           <div class="col-md-4">
+            <div class="withdraw status">
+              <h5>Withdraw</h5>
+              <h2>$00</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="balance status">
+              <h5>Balance</h5>
+              <h2>$00</h2>
+            </div>
+          </div>
+         </div>
+
+
+         <div class="row ">
+           <div class="col-md-6">
+            <div id="submit-area">
+              <h3>deposit</h3>
+              <input type="text" class="form-control" placeholder="$ amount you want to deposit">
+              <br>
+              <button class="btn btn-success">Deposit</button>
+            </div>
+           </div>
+           <div class="col-md-6">
+             <div id="submit-area">
+              <h3>withdraw</h3>
+              <input type="text" class="form-control" placeholder="$ amount you want to withdraw">
+              <br>
+              <button class="btn btn-success">Withdraw</button>
+             </div>
+           </div>
+         </div>
+
+
+
+       </div>
+     </div>
 
 
 
