@@ -39,7 +39,12 @@ upDatedSpanText ("currentBalance", depositNumber);
 const withdrawBtn = document.getElementById('addWithdraw');
 withdrawBtn.addEventListener('click', function(){
  const withdrawNumber = getInputNumber("withdrawAmount");
- console.log(withdrawNumber)
+
+
+ upDatedSpanText ("currentWithdraw", withdrawNumber );
+ upDatedSpanText ("currentBalance", -1 * withdrawNumber );
+  document.getElementById('withdrawAmount').value="";
+
 })
 
 
